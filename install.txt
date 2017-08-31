@@ -1,0 +1,12 @@
+
+mysql> create database cwas;
+Query OK, 1 row affected (0.00 sec)
+
+
+z3r0@ubuntu:~$ mysql -u root -p cwas < cwas.sql
+
+
+nano config.php
+
+$db = new DB('localhost','root','toor','cwas'); #<--- change the usernname and password
+

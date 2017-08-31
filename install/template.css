@@ -1,0 +1,65 @@
+*{outline: 0px; margin: 0px; padding:0px;}
+body{color:#555; font-family:  Tahoma;
+background: #333;
+ direction:rtl;}
+a{text-decoration: none; color:#555;}
+imag{border:0px;}
+.headblock{
+background:linear-gradient(#ff0000, #27292c);
+color :#fff;
+text-align: center;
+font-size: 20px;
+padding:4px;
+margin-top:7px;
+}
+a{
+color:#32DC24;
+}
+.error{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	background:#f1f1f1;
+	color:#ff0000;
+	border:1px solid #ff0000;
+	text-align:center;
+	padding:12px;
+
+}
+.ok{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	background:#f1f1f1;
+	color:green;
+	border:1px solid green;
+	text-align:center;
+	padding:12px;
+
+}
+#headtable{
+background: #C6DCE4;
+color :#555;
+text-align: center;
+padding:4px;
+
+
+td{
+	background: #f1f1f1;
+	text-align: center;
+	padding:7px;
+}
+.bodyblock{
+background:linear-gradient(#ff0000, #27292c);
+color :#fff;
+text-align: center;
+font-size: 17px;
+padding:4px;
+margin-top:7px;
+}
+.bodyblock ul {}
+.bodyblock ul li  {list-stype: none; padding: 0px;}
+.bodyblock ul li a {display: block; color:#444; background: #f1f1f1; padding:7px;
+border-bottom: 1px solid #f1f1f1;}
+.bodyblock ul li a:hover {color:#f50; background:#fff;}
+
